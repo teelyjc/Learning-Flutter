@@ -137,6 +137,35 @@ class MenuScreen extends StatelessWidget {
                 ),
               ),
             ),
+            Card(
+              color: menuColor,
+              child: InkWell(
+                onTap: () => {
+                  Navigator.pushNamed(context, "/videos")
+                },
+                child: Column(
+                  children: [
+                    Container(
+                      width: 100,
+                      margin: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+                      child: Image.asset("assets/images/multimedia.png"),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    const Center(
+                      child: Text(
+                        "Videos",
+                        style: TextStyle(
+                          fontSize: 20,
+                          color: Colors.white
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),
