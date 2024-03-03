@@ -30,7 +30,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  webview_flutter: ^4.4.2
+  youtube_player_flutter: ^8.1.2
+  pdfx:
+    git:
+      url: "https://github.com/ScerIO/packages.flutter"
+      ref: "4be9de9ffed5398fd7d5f44bbb07dcd3d3f1711b"
+      path: packages/pdfx
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
