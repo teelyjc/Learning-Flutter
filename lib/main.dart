@@ -6,6 +6,7 @@ import "package:my_company/screens/auth/login.dart";
 import "package:my_company/screens/auth/register.dart";
 import "package:my_company/screens/products/products.dart";
 import "package:my_company/screens/services/services.dart";
+import "package:my_company/screens/videos/video.dart";
 
 void main() => runApp(const MyCompany());
 
@@ -23,6 +24,7 @@ class MyCompany extends StatelessWidget {
         "/auth/register": (context) => const RegisterScreen(), 
         "/products": (context) => const ProductScreen(),
         "/services": (context) => const ServiceScreen(),
+        "/videos": (context) => const VDOScreen(),
       },
       theme: ThemeData(
         fontFamily: "Roboto",
